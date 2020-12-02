@@ -1,6 +1,6 @@
 {
   "name": "node-configmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Node.js app to demonstrate config maps and secrets",
   "main": "app.js",
   "scripts": {
