@@ -11,7 +11,7 @@ RUN sed -i 's/Listen 80/Listen 8080/' /etc/httpd/conf/httpd.conf \
   && chgrp -R 0 /var/log/httpd /var/run/httpd /run/php-fpm \
   && chmod -R g=u /var/log/httpd /var/run/httpd /run/php-fpm
   
-EXPOSE 8080
+EXPOSE 80
 
 USER 1001
 
